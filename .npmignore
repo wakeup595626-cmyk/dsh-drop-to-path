@@ -1,0 +1,10 @@
+﻿# 运行时产物与备份，不进入发布包（npm 的 files 白名单会绕过 .gitignore，故必须显式声明）
+.beacon.log
+*.log
+*.bak
+*.bak-*
+*.tgz
+.DS_Store
+._*
+node_modules/
+*.tsbuildinfo
