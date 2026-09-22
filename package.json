@@ -1,0 +1,40 @@
+{
+  "name": "@dsh-external/dsh-drop-to-path",
+  "description": "Drop or paste images, folders, PDFs, office docs, zips, videos and audio into the DSH composer as workspace file paths instead of model attachments 鈥?folders keep their structure under .drops/, images convert on send. Fork of loudMore/dsh-drop-to-path with folder traversal, paste-folder detection and HTML data-URI image paste.",
+  "version": "0.2.6",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+    "ADAPTING.md"
+  ],
+  "license": "MIT"
+}
