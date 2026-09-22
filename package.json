@@ -1,6 +1,6 @@
 {
   "name": "@dsh-external/dsh-drop-to-path",
-  "description": "Drop or paste images, folders, PDFs, office docs, zips, videos and audio into the DSH composer as workspace file paths instead of model attachments 鈥?folders keep their structure under .drops/, images convert on send. Fork of loudMore/dsh-drop-to-path with folder traversal, paste-folder detection and HTML data-URI image paste.",
+  "description": "Drag, drop or paste images / PDFs / office docs / zips / media into DeepSeek Harness - they reach a text-only model as workspace file paths. | 中文：把图片、PDF、Office 文档、压缩包、音视频拖入或粘贴到 DSH，转成工作区文件路径交给纯文本模型。",
   "version": "0.2.6",
   "private": true,
   "type": "module",
@@ -34,7 +34,8 @@
     "package.json",
     "README.md",
     "README.zh.md",
-    "ADAPTING.md"
+    "ADAPTING.md",
+    "LICENSE"
   ],
   "license": "MIT"
 }
