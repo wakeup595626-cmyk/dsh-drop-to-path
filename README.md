@@ -7,7 +7,7 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin tha
 Drop or paste images, PDFs, office documents, archives, video or audio into the composer. The plugin writes each file into the `.drops/` directory of the active session workspace, then rewrites the outgoing message so the model receives the resulting **absolute paths** instead of a binary attachment.
 
 - **Images** keep the native attachment experience (thumbnail, preview, remove). On submit, every draft image is uploaded to the host and replaced by its workspace path.
-- **Everything else**  documents, media, archives  appears as a square chip in the attachment rail and is delivered as a path as well.
+- **Everything else** — documents, media, archives — appears as a square chip in the attachment rail and is delivered as a path as well.
 - The host side registers a single exact route, `POST /_dsh/drop-to-path/import`, and performs the decode-and-write.
 
 ## Install

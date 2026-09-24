@@ -4,7 +4,7 @@ This project is distributed under the [MIT](LICENSE) license. The notes below co
 
 ## Runtime dependencies
 
-None  the plugin has no third-party runtime dependencies.
+None — the plugin has no third-party runtime dependencies.
 
 ## Build dependencies
 
