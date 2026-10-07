@@ -19,7 +19,7 @@
 2. **清理永久装配写入**（uninject 不管这两行，需手动）：
    - `profiles/web/package.json` → `dependencies` 删除 `"@dsh-external/dsh-drop-to-path": "link:..."`
    - 同文件 → `dsh.profile.bundles` 数组删除 `"@dsh-external/dsh-drop-to-path"`
-3. （可选）删除插件源目录 `C:\Users\25653\.dsh\external\dsh-drop-to-path`
+3. （可选）删除插件源目录 `~/.dsh/external/dsh-drop-to-path`
 4. （可选）删除已上传文件 `<工作区>\.drops\`
 
 完成后刷新页面即回到插件安装前的原生状态；第 1、2 步都做完后重启也不会复活。
