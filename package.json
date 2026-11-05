@@ -33,7 +33,7 @@
     "cordis.patch.yml",
     "package.json",
     "README.md",
-    "README.zh.md",
+    "README.en.md",
     "ADAPTING.md",
     "LICENSE"
   ],
@@ -54,5 +54,5 @@
   "bugs": {
     "url": "https://github.com/wakeup595626-cmyk/dsh-drop-to-path/issues"
   },
-  "author": "wakeUp595626-cmyk"
+  "author": "wakeup595626-cmyk"
 }
